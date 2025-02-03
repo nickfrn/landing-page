@@ -16,11 +16,12 @@ body {
 .header {
     display: flex;
     align-items: center;
+    padding-bottom: 32px;
 }
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     color: #f9faf8;
     margin-right: auto;
 }
@@ -35,4 +36,51 @@ body {
 li > a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.hero-content {
+    display: flex;
+}
+
+.hero-content > img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover; /* make image crop instead of stretch */
+    margin-left: auto;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-text > p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: #f9faf8 2px solid;
+    border-radius: 4px;
+    padding: 8px 24px;
+}
+
+#hero-btn {
+    border: none;
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.call {
+    background-color: #3882f6;
 }
