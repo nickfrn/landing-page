@@ -78,7 +78,42 @@ li > a {
 #hero-btn {
     border: none;
     margin-top: auto;
-    align-self: flex-start;
+    align-self: flex-start; /* prevent button from stretching across container */
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information > h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-cards {
+    display: flex;
+    gap: 48px;
+}
+
+.card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card > p {
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .call {
