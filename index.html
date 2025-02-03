@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import roboto from google fonts (otherwise thin weight won't work) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Landing Page</title>
 </head>
     <div class="container">
         <div class="hero">
             <div class="header">
-                <div class="logo">Header Logo</div>
+                <div class="logo">Penguins</div>
 
                 <ul class="links">
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">header link two</a></li>
-                    <li><a href="#">header link three</a></li>
+                    <li><a href="#">Penguins</a></li>
+                    <li><a href="#">Are</a></li>
+                    <li><a href="#">Cool</a></li>
                 </ul>
             </div>
 
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>This website is awesome</h1>
+                    <h1>Penguins are awesome</h1>
 
-                    <p>Website hero subtext placeholder</p>
+                    <p>Sign up to the penguin church today, we have penguins.</p>
 
                     <button class="button" id="hero-btn">Sign up</button>
                 </div>
@@ -32,56 +36,55 @@
         </div>
 
         <div class="information">
-            <h2>Some random information</h2>
+            <h2>Some random penguins</h2>
 
             <div class="info-cards">
                 <div class="card">
-                    <div>image placeholder</div>
+                    <img class="info-img" src="./images/penguin-1.jpg" alt="penguins and seal">
 
-                    <p>placeholder text under image</p>
+                    <p>Penguins encountering a baby sea doggo for the first time.</p>
                 </div>
 
                 <div class="card">
-                    <div>image placeholder</div>
+                    <img class="info-img" src="./images/penguin-2.jpg" alt="screaming penguin">
 
-                    <p>placeholder text under image</p>
+                    <p>A screaming penguin, he probably filled in his taxes.</p>
                 </div>
 
                 <div class="card">
-                    <div>image placeholder</div>
+                    <img class="info-img" src="./images/penguin-3.jpg" alt="grumpy penguin">
 
-                    <p>placeholder text under image</p>
+                    <p>A penguin contemplating wether he should go to work or start a new live abroad as a cockatoo.</p>
                 </div>
 
                 <div class="card">
-                    <div>image placeholder</div>
+                    <img class="info-img" src="./images/penguin-4.jpg" alt="poetic penguin">
 
-                    <p>placeholder text under image</p>
+                    <p>This guy is the next Alan Watts.</p>
                 </div>
             </div>
         </div>
 
         <div class="quote">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Aut repellendus ipsam soluta assumenda possimus aliquid sunt aperiam praesentium adipisci ea commodi, 
-                voluptas provident facilis iure animi cumque aspernatur reiciendis impedit.
+            <p class="quote-text">A penguin cannot become a giraffe, 
+                so just be the best penguin you can be.
             </p>
 
-            <p>-Me, because I'm lazy</p>
+            <p class="quote-label">-Gary Vaynerchuk</p>
         </div>
 
         <div class="call">
             <div class="call-text">
-                <p>Call to action! It's time!</p>
+                <p class="action-call">What are you waiting for? It's time to join!</p>
 
-                <p>Sign up by clicking the button!</p>
+                <p>Sign up by clicking the button! Or else.</p>
             </div>
 
-            <button class="button">Sign up</button>
+            <button class="button" id="call-btn">Sign up</button>
         </div>
 
         <div class="footer">
-            <p>Copyright @ me 2025</p>
+            <p>Copyright @ nickfrn 2025</p>
         </div>
     </div>
 <body>
