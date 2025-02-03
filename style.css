@@ -145,4 +145,33 @@ li > a {
 
 .call {
     background-color: #3882f6;
+    display: flex;
+    margin: 64px 128px;
+    border-radius: 4px;
+    padding: 32px 64px;
+}
+
+.call-text {
+    color: #f9faf8;
+}
+
+.call-text > p {
+    margin: 0;
+}
+
+.action-call {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#call-btn {
+    margin-left: auto;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 24px 0;
 }
